@@ -13,11 +13,11 @@ function getInputValue(){
     yy = day.getFullYear();
 }
 
-/*function validateInput(){
+function validateInput(){
     alert(dd);
     alert(mm);
     alert(yy);
-}*/
+}
 
 function validation(){
     getInputValue();
