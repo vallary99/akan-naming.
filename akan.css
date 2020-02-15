@@ -8,3 +8,7 @@ body{
 .card{
     border: 2pt solid black;
 }
+
+.jumbotron{
+    text-align: center;
+}
