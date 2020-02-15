@@ -34,3 +34,11 @@ function validation(){
         maleidentifier=true;
     }
 }
+
+function male(){
+    maleidentifier = true;
+}
+
+function female(){
+    femaleidentifier = true;
+}
