@@ -4,3 +4,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.card{
+    border: 2pt solid black;
+}
