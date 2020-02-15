@@ -18,3 +18,19 @@ function getInputValue(){
     alert(mm);
     alert(yy);
 }*/
+
+function validation(){
+    getInputValue();
+    validateInput();
+    if(maleidentifier===true){
+        maleresult=maleName[dd];
+        alert(maleresult);
+    }else if(maleidentifier===false){
+        femaleresult=true;
+    }else if(femaleidentifier===true){
+        femaleresult=femaleName[dd];
+        alert(femaleresult);
+    }else{
+        maleidentifier=true;
+    }
+}
