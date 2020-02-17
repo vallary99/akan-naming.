@@ -1,37 +1,40 @@
+var maleName=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
+var femaleName=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
+var maleidentifier;
+var femaleidentifier;
+var maleresult, femaleresult;
+ var dd;// mm, yy;
 
-  var maleName=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
-  var femaleName=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
-  var maleidentifier;
-  var femaleidentifier;
-  var maleresult, femaleresult;
-  var dd, mm, yy;
-  
-  
-  function getInputValue(){
-      var day= newDay(document.getElementById("date").value);
-      dd= day.getDay();
-      mm = day.getMonth();
-      yy = day.getFullYear();
-  }
-  
-  function validateInput(){
-      alert(dd);
-      alert(mm);
-      alert(yy);
-  }
+
+function getInputValue(){
+    var day= new Date(document.getElementById("date").value);
+    dd= day.getDay();
+   /* mm = day.getMonth();
+    yy = day.getFullYear();*/
+}
+
+function outputs(){
+    alert(dd);
+   /* alert(mm);
+    alert(yy);*/
+}
 
 function validation(){
     getInputValue();
-    validateInput();
-    if(maleidentifier===true){
+    outputs();
+    if(maleidentifier=true){
         maleresult=maleName[dd];
         alert(maleresult);
-    }else if(maleidentifier===false){
-        femaleresult=true;
-    }else if(femaleidentifier===true){
+    }
+    else if(maleidentifier=false){
+        femaleidentifier=true;
+
+    }
+    else if(femaleidentifier=true){
         femaleresult=femaleName[dd];
         alert(femaleresult);
-    }else{
+    }
+    else{
         maleidentifier=true;
     }
 }
@@ -43,3 +46,7 @@ function male(){
 function female(){
     femaleidentifier = true;
 }
+
+
+  
+
