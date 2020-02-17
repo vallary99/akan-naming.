@@ -1,9 +1,10 @@
 #AKAN NAMING
+
 ##DESCRIPTION
 >This web appication processes user's birthday relative to the gender and gives output as a name according to a Ghananian community,Akan whose naming is determined by days of the week.
 
 ###Live link
->
+> https://vallary99.github.io/akan-naming./
 
 ###CONTACTS
 >Phone:  +254790473112
